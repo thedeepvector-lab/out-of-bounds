@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Out of Bounds — Voxel Deconstruct Racer</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="hud">
+    <div id="stats">
+      <span>SIZE <b id="size">1.0</b>m</span>
+      <span>BLOCKS <b id="blocks">0</b></span>
+      <span>TIME <b id="time">0.0</b>s</span>
+    </div>
+    <div id="progress"><div id="bar"></div></div>
+  </div>
+  <div id="overlay">
+    <h1>OUT OF BOUNDS</h1>
+    <p>A / D or ← / → to steer · smash · absorb · grow</p>
+    <button id="start">CLICK TO RACE</button>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
